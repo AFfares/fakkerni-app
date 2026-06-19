@@ -1,47 +1,12 @@
-# fakkerni-app
-# 🚀 Fakkerni
+# Fakkerni
 
-Smart reminder and task management application.
+Voice-first reminder system for Android.
 
-![Banner](assets/readme/banner.png)
+## Documentation
 
-## 📱 Preview
+- [UX Architecture](docs/fakkerni_ux_architecture.md)
+- [Design System](docs/fakkerni_design_system.md)
 
-| Home Screen                 | Tasks                        |
-| --------------------------- | ---------------------------- |
-| ![](assets/readme/home.png) | ![](assets/readme/tasks.png) |
+## Current scaffold
 
-## ✨ Features
-
-* Create reminders
-* Manage tasks
-* Smart notifications
-* Clean UI
-* Dark mode
-
-## 🛠️ Tech Stack
-
-* Flutter
-* Dart
-* Firebase
-
-## 🚧 Roadmap
-
-* [x] UI Design
-* [x] Reminder System
-* [ ] AI Assistant
-* [ ] Cloud Sync
-* [ ] Web Version
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/AFfares/fakkerni.git
-cd fakkerni
-flutter pub get
-flutter run
-```
-
-## 📄 License
-
-MIT License
+The app currently includes a Flutter shell, Riverpod state, placeholder screens, and an in-memory reminder repository. The next build step is local persistence with Drift and encrypted storage.
